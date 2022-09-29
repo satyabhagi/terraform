@@ -37,5 +37,5 @@ resource "aws_instance" "test" {
     tags = var.instance_tags
 }
 output "instance_ip" {
-  value = aws_instance.test.public_ip
+  value = aws_instance.test.private_ip
 }
