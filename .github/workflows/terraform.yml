@@ -75,7 +75,7 @@ jobs:
         # ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: AHePc72WhNirCcJgu+J5yETOmwaidlHh17yYbKqE
         # ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: us-east-2
+        aws-region: ap-south-1
 
     # Install the latest version of Terraform CLI and configure the Terraform CLI configuration file with a Terraform Cloud user API token
     - name: Setup Terraform
