@@ -71,8 +71,10 @@ jobs:
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-access-key-id: AKIAWOK3L27UZZ7JBQMQ                
+        # ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: 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
+        # ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-2
 
     # Install the latest version of Terraform CLI and configure the Terraform CLI configuration file with a Terraform Cloud user API token
